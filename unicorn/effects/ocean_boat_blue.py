@@ -3,8 +3,8 @@
 import math
 from time import sleep
 
-from unicorn.utils import bracket
-from base import EffectBase
+from utils import bracket
+from .base import EffectBase
 
 
 class OceanBoatBlue(EffectBase):

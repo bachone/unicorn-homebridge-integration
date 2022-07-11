@@ -31,8 +31,8 @@ def hex_to_rgb(value):
     try:
         assert length == 3 or length == 6
         triplet = tuple(
-            bracket(int(value[i:i + length / 3], 16))
-            for i in range(0, length, length / 3)
+            bracket(int(value[i:i + int(length / 3)], 16))
+            for i in range(0, length, int(length / 3))
         )
         return triplet
     except AssertionError:

@@ -3,8 +3,8 @@
 from random import randint
 from time import sleep
 
-from unicorn.utils import transition
-from base import EffectBase
+from utils import transition
+from .base import EffectBase
 
 
 class CandleLight(EffectBase):

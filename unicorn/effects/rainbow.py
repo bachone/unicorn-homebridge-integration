@@ -3,8 +3,8 @@
 from math import cos, sin
 import time
 
-from unicorn.utils import bracket
-from base import EffectBase
+from utils import bracket
+from .base import EffectBase
 
 
 class Rainbow(EffectBase):
